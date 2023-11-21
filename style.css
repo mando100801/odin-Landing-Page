@@ -38,3 +38,26 @@ button {
     color: #1F2937;
 }
 
+/* flexbox */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.website-info {
+    flex-grow: 1;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.quote {
+    flex-grow: 1;
+}
+
+.advertisement {
+    flex-grow: 1;
+}
